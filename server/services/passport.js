@@ -9,7 +9,7 @@ passport.serializeUser((user, done) => {
     done(null, user._id);
 });
 
-passport.deserializeUser( async(id, done) => {
+passport.deserializeUser( async (id, done) => {
     const user = await User.findOne({_id:id});
     done(null, user);
 });

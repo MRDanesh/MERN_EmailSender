@@ -17,7 +17,7 @@ const Dashboard = () => {
 const surveyNew = () => {
     return (
         <div>
-            surveyNew
+            surveyNeww
         </div>
     );
 };
